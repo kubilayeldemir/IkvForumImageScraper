@@ -36,13 +36,14 @@ title = soup.find("h2", class_="topic-title").text
 
 pageBody = getPageBody(soup)
 
-# pagination = pageBody.find("div", class_="pagination")
+pagination = pageBody.find("div", class_="pagination")
 
+paginationLiElements = pagination.findAll("li")
+
+lastPageNumber = int(paginationLiElements[len(paginationLiElements) - 2].text)
 posts = findAllPostsOnPageBody(pageBody)
 
 imageLinks = []
-
-i = 0
 
 for post in posts:
     postContent = post.find("div", {"class": "content"})
@@ -57,7 +58,7 @@ for post in posts:
         print("Request Elapsed Time:" + str(requestEnd - requestStart))
 
         if imageResponse.status_code == 200:
-            with open(title + ";" + postUsername + ";" +uuid.uuid4().hex[:6].upper() + ".png", 'wb') as f:
+            with open(title + ";" + postUsername + ";" + uuid.uuid4().hex[:6].upper() + ".png", 'wb') as f:
                 f.write(imageResponse.content)
             del imageResponse
     for image in filteredImgTags:
@@ -65,15 +66,3 @@ for post in posts:
 
 print(imageLinks)
 print(title)
-
-# for link in imageLinks:
-#     requestStart = time.time()
-#     response = requests.get(link)
-#     requestEnd = time.time()
-#     print("Request Elapsed Time:" + str(requestEnd - requestStart))
-#
-#     if response.status_code == 200:
-#         with open(str(i) + uuid.uuid4().hex[:6].upper() + ".png", 'wb') as f:
-#             f.write(response.content)
-#         del response
-#     i += 1
