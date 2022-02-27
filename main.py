@@ -44,7 +44,7 @@ imageLinks = []
 
 i = 0
 
-for post in [posts]:
+for post in posts:
     postContent = post.find("div", {"class": "content"})
     images = postContent.findAll('img')
     postUsername = post.find('span', {"class": "username"}).text
