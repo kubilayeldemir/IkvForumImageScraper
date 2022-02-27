@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import shutil
 import logging
 import time
 import uuid
