@@ -1,8 +1,19 @@
 from bs4 import BeautifulSoup
 import requests
+import shutil
+import logging
+import time
+import uuid
 
-f = open('ikvPage.txt', 'r', encoding="utf8")
-content = f.read()
+logging.basicConfig(level=logging.DEBUG)
+
+
+def getPageBody(soup):
+    return soup.find("div", {"id": "page-body"})
+
+
+def findAllPostsOnPageBody(pageBody):
+    return pageBody.findAll("div", {"class": "post"})
 
 
 headers = {
@@ -15,39 +26,54 @@ headers = {
     "Cookie": "ikvforum_o73n9_k=; ikvforum_o73n9_u=73036; ikvforum_o73n9_sid=f9c6f40a03853938703acca8a0f14f90"
 }
 
-ikvPage = requests.get("http://forum.istanbuloyun.com/viewtopic.php?f=137&t=165147&start=10", headers=headers)
-soup = BeautifulSoup(ikvPage.content)
+f = open('ikvPage.txt', 'r', encoding="utf8")
+ikvPage = f.read()
+# ikvPage = requests.get("http://forum.istanbuloyun.com/viewtopic.php?f=137&t=165147", headers=headers)
+
+soup = BeautifulSoup(ikvPage)
 
 title = soup.find("h2", class_="topic-title").text
-pageBody = soup.find("div", {"id": "page-body"})
 
-posts = pageBody.findAll("div", {"class": "post"})
+pageBody = getPageBody(soup)
 
-for post in posts:
-    print("----------------------------------")
+# pagination = pageBody.find("div", class_="pagination")
+
+posts = findAllPostsOnPageBody(pageBody)
+
+imageLinks = []
+
+i = 0
+
+for post in [posts]:
     postContent = post.find("div", {"class": "content"})
     images = postContent.findAll('img')
-    filtered = filter(lambda image: not image['src'].startswith('./images/smilies'), images)
-    for image in filtered:
-        print(image['src'])
-    print("----------------------------------")
+    postUsername = post.find('span', {"class": "username"}).text
+    filteredImgTags = filter(lambda image: not image['src'].startswith('./images/smilies'), images)
+    for imgTag in filteredImgTags:
+        link = imgTag['src']
+        requestStart = time.time()
+        imageResponse = requests.get(link)
+        requestEnd = time.time()
+        print("Request Elapsed Time:" + str(requestEnd - requestStart))
 
+        if imageResponse.status_code == 200:
+            with open(title + ";" + postUsername + ";" +uuid.uuid4().hex[:6].upper() + ".png", 'wb') as f:
+                f.write(imageResponse.content)
+            del imageResponse
+    for image in filteredImgTags:
+        imageLinks.append(image['src'])
 
-# firstPostsBody = posts.find("div", {"class": "content"})
-
-# print(firstPostsBody)
-
-# print(soup.prettify())
-#
-# print("hoop")
+print(imageLinks)
 print(title)
 
+# for link in imageLinks:
+#     requestStart = time.time()
+#     response = requests.get(link)
+#     requestEnd = time.time()
+#     print("Request Elapsed Time:" + str(requestEnd - requestStart))
 #
-# def print_hi(name):
-#     # Use a breakpoint in the code line below to debug your script.
-#     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-#
-#
-# # Press the green button in the gutter to run the script.
-# if __name__ == '__main__':
-#     print_hi('PyCharm')
+#     if response.status_code == 200:
+#         with open(str(i) + uuid.uuid4().hex[:6].upper() + ".png", 'wb') as f:
+#             f.write(response.content)
+#         del response
+#     i += 1
