@@ -40,7 +40,7 @@ pagination = pageBody.find("div", class_="pagination")
 
 paginationLiElements = pagination.findAll("li")
 
-lastPageNumber = int(paginationLiElements[len(paginationLiElements) - 2].text)
+lastPageNumber = int(paginationLiElements[-2].text)
 posts = findAllPostsOnPageBody(pageBody)
 
 imageLinks = []
