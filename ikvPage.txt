@@ -1,0 +1,2194 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>(25) Bayterapi'nin Günlüğü - İKV Forum</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Besleme - İKV Forum" href="/app.php/feed">
+	<link rel="alternate" type="application/atom+xml" title="Besleme - Haberler" href="/app.php/feed/news">
+	<link rel="canonical" href="http://forum.istanbuloyun.com/viewtopic.php?t=165147">
+
+	<!--
+	Style name:			IstanbulOyunKKT
+	Based on style:		prosilver
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		Sobee Studios (http://forum.IstanbulOyunKKT.com)
+-->
+
+	<link href="./assets/css/font-awesome.min.css?assets_version=81" rel="stylesheet">
+	<link href="./styles/IstanbulOyunKKT/theme/stylesheet.css?assets_version=81" rel="stylesheet">
+	<link href="./styles/IstanbulOyunKKT/theme/tr/stylesheet.css?assets_version=81" rel="stylesheet">
+
+
+
+	<!--[if lte IE 9]>
+	<link href="./styles/IstanbulOyunKKT/theme/tweaks.css?assets_version=81" rel="stylesheet">
+<![endif]-->
+
+	<meta name="google-site-verification" content="" />
+
+	<link href="./ext/alfredoramos/simplespoiler/styles/all/theme/css/common.css?assets_version=81" rel="stylesheet"
+		type="text/css" media="screen" />
+	<link href="./ext/alfredoramos/simplespoiler/styles/IstanbulOyun/theme/css/style.css?assets_version=81"
+		rel="stylesheet" type="text/css" media="screen" />
+	<link href="./ext/alfredoramos/simplespoiler/styles/IstanbulOyun/theme/css/colors.css?assets_version=81"
+		rel="stylesheet" type="text/css" media="screen" />
+	<link href="./ext/hifikabin/googlesearch/styles/prosilver/theme/googlesearch.css?assets_version=81" rel="stylesheet"
+		type="text/css" media="screen" />
+	<link href="./ext/hjw/calendar/styles/IstanbulOyun/theme/calendar.css?assets_version=81" rel="stylesheet"
+		type="text/css" media="screen" />
+
+
+
+</head>
+
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+	<div class="logoIKV">
+		<a href="./index.php"><img src="./styles/IstanbulOyunKKT/theme/images/logo.png" alt=""></a>
+	</div>
+	<div id="wrap" class="wrap">
+
+		<a id="top" class="top-anchor" accesskey="t"></a>
+		<div id="page-header">
+			<div class="headerbar" role="banner">
+				<div class="inner">
+
+					<div id="site-description" class="site-description">
+						<a id="logo" class="logo" href="./index.php"
+							title="Forum ana sayfa"><span class="site_logo"></span></a>
+						<h1>İKV Forum</h1>
+						<p>İstanbul Kıyamet Vakti Oyuncularının Buluşma Noktası</p>
+						<p class="skiplink"><a href="#start_here">İçeriğe geç</a></p>
+					</div>
+
+					<div id="search-box" class="search-box search-header" role="search">
+						<form action="./search.php" method="get" id="search">
+							<fieldset>
+								<input name="keywords" id="keywords" type="search" maxlength="128" title="Anahtar kelimeleri ara" class="inputbox search tiny" size="20" value="" placeholder="Ara…" />
+								<button class="button button-search" type="submit" title="Ara">
+						<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Ara</span>
+					</button>
+								<a href="./search.php" class="button button-search-end" title="Gelişmiş arama">
+									<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Gelişmiş arama</span>
+								</a>
+
+							</fieldset>
+						</form>
+					</div>
+
+				</div>
+			</div>
+			<div id="index-calendar">
+				<div class="forabg" style="margin-bottom:4px;font-weight:bold;color:#FFFFFF;">Haftanın Etkinlikleri
+				</div>
+				<div class="week">
+					<div class="wday sat">
+						<div class="kday">
+							<div class="day">Cumartesi, 26.
+							</div>
+						</div>
+						<div class="sday">
+							<div class="cal-day">
+								<div style="text-align:center;">Cumartesi</div>26.
+							</div>
+						</div>
+						<span class="sday">
+										<a class="eventbg" style="color:#FF0000;font-weight:bold;" title="Ölüm Oyunu: Eminönü, Beyazköşk" href="./viewtopic.php?p=1262310#p1262310" >
+										Ölüm Oyunu: Eminönü, Beyazköşk										</a>									</span>
+						<span class="kday">
+										<a class="eventbg" style="line-height:2em;color:#FF0000;font-weight:bold;" href="./viewtopic.php?p=1262310#p1262310" >
+										Ölüm Oyunu: Eminönü, Beyazköşk
+										</a>									</span>
+						<br />
+																					</div>
+						<div class="wday sun">
+							<div class="kday">
+								<div class="day">Pazar, 27.
+								</div>
+							</div>
+							<div class="sday">
+								<div class="cal-day">
+									<div style="text-align:center;">Pazar</div>27.
+								</div>
+							</div>
+							<span class="sday">
+										<a class="eventbg" style="color:#2DC9FC;font-weight:bold;" title="Sancak savaşı: Eminönü / Beyazköşk" href="./viewtopic.php?p=1262314#p1262314" >
+										Sancak savaşı: Eminönü / Beyazköşk										</a>									</span>
+							<span class="kday">
+										<a class="eventbg" style="line-height:2em;color:#2DC9FC;font-weight:bold;" href="./viewtopic.php?p=1262314#p1262314" >
+										Sancak savaşı: Eminönü / Beyazköşk
+										</a>									</span>
+							<br />
+																					</div>
+							<div class="wday mon">
+								<div class="kday">
+									<div class="day">Pazartesi, 28.
+									</div>
+								</div>
+								<div class="sday">
+									<div class="cal-day">
+										<div style="text-align:center;">Pazartesi</div>28.
+									</div>
+								</div>
+								<span class="sday">
+										<a class="eventbg" style="color:#FFFE33;font-weight:bold;" title="Araf Kapısı.! Anka" href="./viewtopic.php?p=1262306#p1262306" >
+										Araf Kapısı.! Anka										</a>									</span>
+								<span class="kday">
+										<a class="eventbg" style="line-height:2em;color:#FFFE33;font-weight:bold;" href="./viewtopic.php?p=1262306#p1262306" >
+										Araf Kapısı.! Anka
+										</a>									</span>
+								<br />
+																					</div>
+								<div class="wday tue">
+									<div class="kday">
+										<div class="day">Salı, 01.
+										</div>
+									</div>
+									<div class="sday">
+										<div class="cal-day">
+											<div style="text-align:center;">Salı</div>01.
+										</div>
+									</div>
+								</div>
+								<div class="wday wed">
+									<div class="kday">
+										<div class="day">Çarşamba, 02.
+										</div>
+									</div>
+									<div class="sday">
+										<div class="cal-day">
+											<div style="text-align:center;">Çarşamba</div>02.
+										</div>
+									</div>
+								</div>
+								<div class="wday thu">
+									<div class="kday">
+										<div class="day">Perşembe, 03.
+										</div>
+									</div>
+									<div class="sday">
+										<div class="cal-day">
+											<div style="text-align:center;">Perşembe</div>03.
+										</div>
+									</div>
+								</div>
+								<div class="wday fri">
+									<div class="kday">
+										<div class="day">Cuma, 04.
+										</div>
+									</div>
+									<div class="sday">
+										<div class="cal-day">
+											<div style="text-align:center;">Cuma</div>04.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="week">
+
+							</div>
+						</div>
+						<div class="navbar" role="navigation">
+							<div class="inner">
+
+								<ul id="nav-main" class="nav-main linklist" role="menubar">
+
+									<li id="quick-links" class="quick-links dropdown-container responsive-menu"
+										data-skip-responsive="true">
+										<a href="#" class="dropdown-trigger">
+											<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Hızlı bağlantılar</span>
+										</a>
+										<div class="dropdown">
+											<div class="pointer">
+												<div class="pointer-inner"></div>
+											</div>
+											<ul class="dropdown-contents" role="menu">
+
+												<li class="separator"></li>
+												<li>
+													<a href="./search.php?search_id=egosearch" role="menuitem">
+														<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i><span>Kendi mesajlarınız</span>
+													</a>
+												</li>
+												<li>
+													<a href="./search.php?search_id=newposts" role="menuitem">
+														<i class="icon fa-file-o fa-fw icon-red" aria-hidden="true"></i><span>Yeni mesajlar</span>
+													</a>
+												</li>
+												<li>
+													<a href="./search.php?search_id=unreadposts" role="menuitem">
+														<i class="icon fa-file-o fa-fw icon-red" aria-hidden="true"></i><span>Okunmamış mesajlar</span>
+													</a>
+												</li>
+												<li>
+													<a href="./search.php?search_id=unanswered" role="menuitem">
+														<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i><span>Cevaplanmamış başlıklar</span>
+													</a>
+												</li>
+												<li>
+													<a href="./search.php?search_id=active_topics" role="menuitem">
+														<i class="icon fa-file-o fa-fw icon-orange" aria-hidden="true"></i><span>Aktif başlıklar</span>
+													</a>
+												</li>
+												<li class="separator"></li>
+												<li>
+													<a href="./search.php" role="menuitem">
+														<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Ara</span>
+													</a>
+												</li>
+
+												<li class="separator"></li>
+
+											</ul>
+										</div>
+									</li>
+
+									<li data-last-responsive="true">
+										<a href="/app.php/help/faq" rel="help" title="Sıkça Sorulan Sorular"
+											role="menuitem">
+											<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>SSS</span>
+										</a>
+									</li>
+									<li data-last-responsive="true">
+										<a href="/app.php/calendar/" title="Takvim" role="menuitem">
+											<i class="icon fa-calendar" aria-hidden="true"></i><span>Takvim</span>
+										</a>
+									</li>
+
+									<li id="username_logged_in" class="rightside  no-bulletin"
+										data-skip-responsive="true">
+										<div class="header-profile dropdown-container">
+											<a href="./ucp.php" class="header-avatar dropdown-trigger"><img class="avatar" src="./images/avatars/gallery/Materyal/Ejder.jpg" width="100" height="100" alt="Kullanıcı avatarı" />
+												<span class="username">benibanladilar</span></a>
+											<div class="dropdown">
+												<div class="pointer">
+													<div class="pointer-inner"></div>
+												</div>
+												<ul class="dropdown-contents" role="menu">
+
+
+													<li>
+														<a href="./ucp.php" title="Kullanıcı Kontrol Paneli"
+															role="menuitem">
+															<i class="icon fa-sliders fa-fw" aria-hidden="true"></i><span>Kullanıcı Kontrol Paneli</span>
+														</a>
+													</li>
+													<li>
+														<a href="" title="Profil" role="menuitem">
+															<i class="icon fa-user fa-fw" aria-hidden="true"></i><span>Profil</span>
+														</a>
+													</li>
+
+
+													<li class="separator"></li>
+													<li>
+														<a href="./ucp.php?mode=logout&amp;sid=026dc99c4024a19553110f06ed8301cd"
+															title="Çıkış" accesskey="x" role="menuitem">
+															<i class="icon fa-power-off fa-fw" aria-hidden="true"></i><span>Çıkış</span>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="rightside" data-skip-responsive="true">
+										<a href="./ucp.php?i=pm&amp;folder=inbox" role="menuitem">
+											<i class="icon fa-inbox fa-fw" aria-hidden="true"></i><span>Özel mesajlar </span><strong class="badge hidden">0</strong>
+										</a>
+									</li>
+									<li class="dropdown-container dropdown-right rightside" data-skip-responsive="true">
+										<a href="./ucp.php?i=ucp_notifications" id="notification_list_button"
+											class="dropdown-trigger">
+											<i class="icon fa-bell fa-fw" aria-hidden="true"></i><span>Bildirimler </span><strong class="badge">25</strong>
+										</a>
+										<div id="notification_list"
+											class="dropdown dropdown-extended notification_list">
+											<div class="pointer">
+												<div class="pointer-inner"></div>
+											</div>
+											<div class="dropdown-contents">
+												<div class="header">
+													Bildirimler
+													<span class="header_settings">
+				<a href="./ucp.php?i=ucp_notifications&amp;mode=notification_options">Ayarlar</a>
+									<span id="mark_all_notifications"> &bull; <a href="./ucp.php?i=ucp_notifications&amp;mode=notification_list&amp;mark=all&amp;token=3d0acfde" data-ajax="notification.mark_all_read">Tümünü okunmuş say</a></span>
+													</span>
+												</div>
+
+												<ul>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1355921&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?p=1263428#p1263428">
+															<img class="avatar" src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" data-src="./images/avatars/gallery/Konsept/Kenan.jpg" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">IIxSkyLoxII</span>
+																	kullanıcısından başlığa <strong>cevap</strong>
+																	geldi:</p>
+																<p class="notification-reference">"BEKLİYORUZ"</p>
+																<p class="notification-time">27 Şub 2022 00:20</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1355921&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1355838&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?f=46&amp;t=169927">
+															<img src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" alt="" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">magapa</span> tarafından
+																	<strong>yeni bir başlık</strong> açıldı:</p>
+																<p class="notification-reference">"BEKLİYORUZ"</p>
+																<p class="notification-forum"><em>Forum:</em> Genel
+																	Etkileşim</p>
+																<p class="notification-time">26 Şub 2022 23:19</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1355838&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1355782&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?p=1263418#p1263418">
+															<img src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" alt="" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">Esadullah</span>
+																	kullanıcısından başlığa <strong>cevap</strong>
+																	geldi:</p>
+																<p class="notification-reference">"Oyundaki bir hata mı
+																	?"</p>
+																<p class="notification-time">26 Şub 2022 22:46</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1355782&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class="">
+														<a class="notification-block"
+															href="./viewtopic.php?f=46&amp;t=169920">
+															<img class="avatar" src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" data-src="./images/avatars/gallery/Sizden_Gelenler/ProtectorDragon_13771.jpg" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">x6Tence</span> tarafından
+																	<strong>yeni bir başlık</strong> açıldı:</p>
+																<p class="notification-reference">"BU SORUNUN CEVABI
+																	NERDE?"</p>
+																<p class="notification-forum"><em>Forum:</em> Genel
+																	Etkileşim</p>
+																<p class="notification-time">26 Şub 2022 16:02</p>
+															</div>
+														</a> </li>
+													<li class="">
+														<a class="notification-block"
+															href="./viewtopic.php?p=1263395#p1263395">
+															<img src="//secure.gravatar.com/avatar/5f8d61c5883c2eea7b49be43841cb13e?s=100" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">AGRESIF</span>
+																	kullanıcısından başlığa <strong>cevap</strong>
+																	geldi:</p>
+																<p class="notification-reference">"Erkek Karaktere
+																	Yanlışlıkla Bayan Zırh Üretmek Destek'ten Destek
+																	Alamamak"</p>
+																<p class="notification-time">26 Şub 2022 14:24</p>
+															</div>
+														</a> </li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1355249&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?f=46&amp;t=169915">
+															<img src="//secure.gravatar.com/avatar/a7e20bbb4dcfa44ac5647c5a15ad3eb4?s=100" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">CHAPPIE</span> tarafından
+																	<strong>yeni bir başlık</strong> açıldı:</p>
+																<p class="notification-reference">"Oyundaki bir hata mı
+																	?"</p>
+																<p class="notification-forum"><em>Forum:</em> Genel
+																	Etkileşim</p>
+																<p class="notification-time">25 Şub 2022 22:50</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1355249&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1354703&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?p=1263355#p1263355">
+															<img class="avatar" src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" data-src="./images/avatars/gallery/Materyal/ankaasa.jpg" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">campazzo</span> ve
+																	<span class="username">hakan1905</span>
+																	kullanıcısından başlığa <strong>cevap</strong>
+																	geldi:</p>
+																<p class="notification-reference">"1'den 59 Seviye'ye
+																	Karakter Kasma Serisi"</p>
+																<p class="notification-time">24 Şub 2022 19:57</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1354703&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1354647&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?f=46&amp;t=169902">
+															<img src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" alt="" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">Esadullah</span> tarafından
+																	<strong>yeni bir başlık</strong> açıldı:</p>
+																<p class="notification-reference">"1'den 59 Seviye'ye
+																	Karakter Kasma Serisi"</p>
+																<p class="notification-forum"><em>Forum:</em> Genel
+																	Etkileşim</p>
+																<p class="notification-time">24 Şub 2022 19:27</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1354647&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1354522&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?p=1263348#p1263348">
+															<img class="avatar" src="./styles/IstanbulOyunKKT/theme/images/no_avatar.gif" data-src="./images/avatars/gallery/3B/Philotheos.jpg" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">MobilSorun78</span>
+																	kullanıcısından başlığa <strong>cevap</strong>
+																	geldi:</p>
+																<p class="notification-reference">"YENİ BOLGE : GEZGİN
+																	SEHİR VE AYASOFYA"</p>
+																<p class="notification-time">24 Şub 2022 12:10</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1354522&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+													<li class=" bg2">
+														<a class="notification-block"
+															href="./index.php?mark_notification=1352528&amp;hash=03c4029a"
+															data-real-url="./viewtopic.php?p=1263236#p1263236">
+															<img src="//secure.gravatar.com/avatar/71ac280913a9f69795f7e563d0deb65d?s=100" width="100" height="100" alt="Kullanıcı avatarı" />
+															<div class="notification_text">
+																<p class="notification-title">
+																	<span class="username">ForGaDDaRLorD</span>
+																	kullanıcısından başlığa <strong>cevap</strong>
+																	geldi:</p>
+																<p class="notification-reference">"Daha Akıcı Bir Oyun
+																	İçin"</p>
+																<p class="notification-time">19 Şub 2022 22:57</p>
+															</div>
+														</a> <a
+															href="./index.php?mark_notification=1352528&amp;hash=03c4029a"
+															class="mark_read icon-mark"
+															data-ajax="notification.mark_read" title="Okunmuş say">
+															<i class="icon fa-check-circle icon-xl fa-fw" aria-hidden="true"></i><span class="sr-only">Okunmuş say</span>
+														</a>
+													</li>
+												</ul>
+
+												<div class="footer">
+													<a href="./ucp.php?i=ucp_notifications"><span>Tümünü Gör</span></a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+								<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+									<li class="breadcrumbs">
+										<span class="crumb"  itemtype="http://data-vocabulary.org/Breadcrumb" itemscope=""><a href="./index.php" itemprop="url" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="title">Forum ana sayfa</span></a></span>
+
+										<span class="crumb"  itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-forum-id="45"><a href="./viewforum.php?f=45" itemprop="url"><span itemprop="title">Genel Etkileşim</span></a></span>
+										<span class="crumb"  itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-forum-id="137"><a href="./viewforum.php?f=137" itemprop="url"><span itemprop="title">Kıyamet Günlükleri</span></a></span>
+									</li>
+									<!--[if !IE]><!-->
+									<li id="g-search-box" class="search-box rightside responsive-hide">
+										<form action="/app.php/googlesearch">
+											<fieldset>
+												<input name="cx" type="hidden" value="007124507919808427397:a8ccezde52m">
+												<input action="text" name="q" type="search" maxlength="255" class="inputbox search tiny" size="20" value="" placeholder="Google Search ...">
+												<button class="button button-search-google" type="submit" name="sitesearch" title="Google Search" />
+             <i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Google Search</span>
+          </fieldset>
+       </form>
+    </li>
+<!--<![endif]-->
+
+					<!-- <li class="rightside responsive-search">
+				<a href="./search.php" title="Gelişmiş arama seçeneklerini görüntüle" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Ara</span>
+				</a>
+			</li> -->
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+
+
+<h2 class="topic-title"><a href="./viewtopic.php?f=137&amp;t=165147">Bayterapi'nin Günlüğü</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none !important;">Anılarını Kıyamet Günlüğü'nde sakla! Geçmişin, geleceğe ışık tutsun!<br /></div>
+
+
+<div class="action-bar bar-top">
+
+			<a href="./posting.php?mode=reply&amp;f=137&amp;t=165147" class="button" title="Cevap gönder">
+							<span>Cevapla</span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Başlık araçları" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			<div class="pointer"><div class="pointer-inner"></div></div>
+			<ul class="dropdown-contents">
+													<li>
+						<a href="./viewtopic.php?uid=73036&amp;f=137&amp;t=165147&amp;watch=topic&amp;start=0&amp;hash=56f1a561" class="watch-topic-link" title="Başlığa abone ol" data-ajax="toggle_link" data-toggle-class="icon fa-square-o fa-fw" data-toggle-text="Başlığa abone olmayı bırak" data-toggle-url="./viewtopic.php?uid=73036&amp;f=137&amp;t=165147&amp;unwatch=topic&amp;start=0&amp;hash=56f1a561" data-update-all=".watch-topic-link">
+							<i class="icon fa-check-square-o fa-fw" aria-hidden="true"></i><span>Başlığa abone ol</span>
+						</a>
+					</li>
+													<li>
+						<a href="./viewtopic.php?f=137&amp;t=165147&amp;bookmark=1&amp;hash=56f1a561" class="bookmark-link" title="Sık kullanılanlara ekle" data-ajax="alt_text" data-alt-text="Sık kullanılanlardan sil" data-update-all=".bookmark-link">
+							<i class="icon fa-bookmark-o fa-fw" aria-hidden="true"></i><span>Sık kullanılanlara ekle</span>
+						</a>
+					</li>
+																<li>
+					<a href="./memberlist.php?mode=email&amp;t=165147" title="Başlığı e-posta ile gönder">
+						<i class="icon fa-envelope-o fa-fw" aria-hidden="true"></i><span>Başlığı e-posta ile gönder</span>
+					</a>
+				</li>
+												<li>
+					<a href="./viewtopic.php?f=137&amp;t=165147&amp;view=print" title="Yazıcı görüntüsü" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Yazıcı görüntüsü</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<!-- <div class="search-box" role="search">
+			<form method="get" id="topic-search" action="./search.php">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Bu başlıkta ara…" />
+				<button class="button button-search" type="submit" title="Ara">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Ara</span>
+				</button>
+												<a href="./search.php" class="button button-search-end"
+													title="Gelişmiş arama">
+													<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Gelişmiş arama</span>
+												</a>
+												<input type="hidden" name="t" value="165147" />
+												<input type="hidden" name="sf" value="msgonly" />
+
+			</fieldset>
+										</form>
+							</div> -->
+
+							<div class="pagination">
+								<a href="./viewtopic.php?f=137&amp;t=165147&amp;view=unread#unread" class="mark">Önce
+									okunmamış mesaj</a> &bull; 43 mesaj
+								<ul>
+									<li class="active"><span>1</span></li>
+									<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=10"
+											role="button">2</a></li>
+									<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=20"
+											role="button">3</a></li>
+									<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=30"
+											role="button">4</a></li>
+									<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=40"
+											role="button">5</a></li>
+									<li class="arrow next"><a class="button button-icon-only"
+											href="./viewtopic.php?f=137&amp;t=165147&amp;start=10" rel="next"
+											role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Sonraki</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+
+
+						<div id="p1247905" class="post has-profile bg2">
+							<div class="inner">
+
+								<dl class="postprofile" id="profile1247905">
+									<dt class="has-profile-rank has-avatar">
+										<div class="avatar-container">
+											<span class="avatar"><img class="avatar" src="./images/avatars/gallery/Konsept/sifacierkekc.jpg" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+										</div>
+										<strong><span class="username">BayTerapi</span></strong>
+									</dt>
+
+									<dd class="profile-rank">Mebrure'nin
+										Adamı<br /><img src="./images/ranks/31.png" alt="Mebrure'nin Adamı" title="Mebrure'nin Adamı" /></dd>
+									<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+											href="./search.php?author_id=69295&amp;sr=posts">2663</a></dd>
+									<dd class="profile-joined"><strong>Kayıt:</strong> 02 Nis 2016 22:16</dd>
+
+
+									<dd class="profile-contact">
+										<strong>İletişim:</strong>
+										<div class="dropdown-container dropdown-left">
+											<a href="#" class="dropdown-trigger" title="İletişim BayTerapi">
+												<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim BayTerapi</span>
+											</a>
+											<div class="dropdown">
+												<div class="pointer">
+													<div class="pointer-inner"></div>
+												</div>
+												<div class="dropdown-contents contact-icons">
+													<div>
+														<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1247905"
+															title="Özel mesaj gönder" class="last-cell">
+															<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</dd>
+
+								</dl>
+
+								<div class="postbody">
+									<div id="post_content1247905">
+
+										<h3 class="first"><a href="#p1247905">Bayterapi'nin Günlüğü</a></h3>
+
+										<ul class="post-buttons">
+											<li>
+												<a href="/app.php/post/1247905/report" title="Bu mesajı bildir"
+													class="button button-icon-only">
+													<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+												</a>
+											</li>
+											<li>
+												<a href="./posting.php?mode=quote&amp;f=137&amp;p=1247905"
+													title="Alıntı ile cevapla" class="button button-icon-only">
+													<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+												</a>
+											</li>
+										</ul>
+
+										<p class="author">
+											<a class="unread" href="./viewtopic.php?p=1247905#p1247905" title="Mesaj">
+												<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+											</a>
+											<span class="responsive-hide">gönderen <strong><span class="username">BayTerapi</span></strong>
+											&raquo; </span>13 Oca 2021 04:01
+										</p>
+
+
+
+										<div class="content"><span style="color: #80FFFF"><strong>Merhabalar Bayterapi'nin günlüğü;<br>
+<br>
+Bu günlüğün açılması için çok direttim. Hatta 2 sene önce bu işe atılmak istediğim de elim kolum bağlandı ve devam etmeme kararı almıştım. Ama şimdi karşınıza çıkıyorum, sanırım kendime güvenim arttı. <br>
+<br>
+Her sayfası okuduğunuza değecek gibi inanılmaz yürekli bir cümle kurmak istemiyorum desem de şu an kurdum.<br>
+<br>
+Sanırım kapanış yapmam lazım artık...<br>
+<br>
+İyi okumalar. Canınızın sıkıldığın da bakındığınız, öyle çok da sihirbazlık beklemeyeceğiniz bir serüven olsun.. Ha kim bilir belki ilham gelir.<br>
+<br>
+<br>
+Acemiyim, acemi!!!</strong></span></div>
+
+
+
+										<div id="sig1247905" class="signature">
+											<span style="color: #40BF00"><strong>Bayterapi</strong></span><br>
+											<br>
+											<span style="color: #BF0000"><strong>JamesWebb</strong></span><br>
+											<br>
+											<span style="color: #4080FF"><strong>Perseverance</strong></span></div>
+									</div>
+
+								</div>
+
+								<div class="back2top">
+									<a href="#top" class="top" title="Başa dön">
+										<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+										<span class="sr-only">Başa dön</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<hr class="divider" />
+						<div id="p1247910" class="post has-profile bg1">
+							<div class="inner">
+
+								<dl class="postprofile" id="profile1247910">
+									<dt class="has-profile-rank no-avatar">
+										<div class="avatar-container">
+										</div>
+										<strong><span class="username">Alidurna</span></strong>
+									</dt>
+
+									<dd class="profile-rank">Salgın
+										Koruyucusu<br /><img src="./images/ranks/2.png" alt="Salgın Koruyucusu" title="Salgın Koruyucusu" /></dd>
+									<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+											href="./search.php?author_id=76320&amp;sr=posts">23</a></dd>
+									<dd class="profile-joined"><strong>Kayıt:</strong> 15 Mar 2020 09:32</dd>
+
+
+									<dd class="profile-contact">
+										<strong>İletişim:</strong>
+										<div class="dropdown-container dropdown-left">
+											<a href="#" class="dropdown-trigger" title="İletişim Alidurna">
+												<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim Alidurna</span>
+											</a>
+											<div class="dropdown">
+												<div class="pointer">
+													<div class="pointer-inner"></div>
+												</div>
+												<div class="dropdown-contents contact-icons">
+													<div>
+														<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1247910"
+															title="Özel mesaj gönder" class="last-cell">
+															<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</dd>
+
+								</dl>
+
+								<div class="postbody">
+									<div id="post_content1247910">
+
+										<h3><a href="#p1247910">Re: Bayterapi'nin Günlüğü</a></h3>
+
+										<ul class="post-buttons">
+											<li>
+												<a href="/app.php/post/1247910/report" title="Bu mesajı bildir"
+													class="button button-icon-only">
+													<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+												</a>
+											</li>
+											<li>
+												<a href="./posting.php?mode=quote&amp;f=137&amp;p=1247910"
+													title="Alıntı ile cevapla" class="button button-icon-only">
+													<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+												</a>
+											</li>
+										</ul>
+
+										<p class="author">
+											<a class="unread" href="./viewtopic.php?p=1247910#p1247910" title="Mesaj">
+												<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+											</a>
+											<span class="responsive-hide">gönderen <strong><span class="username">Alidurna</span></strong>
+											&raquo; </span>13 Oca 2021 09:14
+										</p>
+
+
+
+										<div class="content">Şimdiden başarılar</div>
+
+
+
+
+									</div>
+
+								</div>
+
+								<div class="back2top">
+									<a href="#top" class="top" title="Başa dön">
+										<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+										<span class="sr-only">Başa dön</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<hr class="divider" />
+						<div id="p1247911" class="post has-profile bg2">
+							<div class="inner">
+
+								<dl class="postprofile" id="profile1247911">
+									<dt class="has-profile-rank has-avatar">
+										<div class="avatar-container">
+											<span class="avatar"><img src="//secure.gravatar.com/avatar/06406cfb1b4a30b3157f0614834bdb1b?s=100" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+										</div>
+										<strong><span class="username">Sonne</span></strong>
+									</dt>
+
+									<dd class="profile-rank">Mezarlık
+										Bekçisi<br /><img src="./images/ranks/16.png" alt="Mezarlık Bekçisi" title="Mezarlık Bekçisi" /></dd>
+									<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+											href="./search.php?author_id=73982&amp;sr=posts">1136</a></dd>
+									<dd class="profile-joined"><strong>Kayıt:</strong> 29 Nis 2018 09:35</dd>
+
+									<dd class="profile-custom-field profile-phpbb_location"><strong>Konum:</strong>
+										Giresun/Keşap</dd>
+
+									<dd class="profile-contact">
+										<strong>İletişim:</strong>
+										<div class="dropdown-container dropdown-left">
+											<a href="#" class="dropdown-trigger" title="İletişim Sonne">
+												<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim Sonne</span>
+											</a>
+											<div class="dropdown">
+												<div class="pointer">
+													<div class="pointer-inner"></div>
+												</div>
+												<div class="dropdown-contents contact-icons">
+													<div>
+														<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1247911"
+															title="Özel mesaj gönder" class="last-cell">
+															<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</dd>
+
+								</dl>
+
+								<div class="postbody">
+									<div id="post_content1247911">
+
+										<h3><a href="#p1247911">Re: Bayterapi'nin Günlüğü</a></h3>
+
+										<ul class="post-buttons">
+											<li>
+												<a href="/app.php/post/1247911/report" title="Bu mesajı bildir"
+													class="button button-icon-only">
+													<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+												</a>
+											</li>
+											<li>
+												<a href="./posting.php?mode=quote&amp;f=137&amp;p=1247911"
+													title="Alıntı ile cevapla" class="button button-icon-only">
+													<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+												</a>
+											</li>
+										</ul>
+
+										<p class="author">
+											<a class="unread" href="./viewtopic.php?p=1247911#p1247911" title="Mesaj">
+												<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+											</a>
+											<span class="responsive-hide">gönderen <strong><span class="username">Sonne</span></strong>
+											&raquo; </span>13 Oca 2021 09:25
+										</p>
+
+
+
+										<div class="content">Hayırlı uğurlu olsun
+											<img class="smilies" src="./images/smilies/emojione/1f60c.svg" width="20" height="20" alt=":relieved:" title="relieved face"></div>
+
+
+
+											<div id="sig1247911" class="signature"><em></em>
+												<div align="center">
+													<em><a href="https://www.hizliresim.com/550r2gs" class="postlink"><img src="https://i.hizliresim.com/550r2gs.png" class="postimage" alt="Resim"></a></em>
+													<div align="center"><em></em></div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1247964" class="post has-profile bg1">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1247964">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img class="avatar" src="./images/avatars/gallery/Konsept/sifacierkekc.jpg" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">BayTerapi</span></strong>
+										</dt>
+
+										<dd class="profile-rank">Mebrure'nin
+											Adamı<br /><img src="./images/ranks/31.png" alt="Mebrure'nin Adamı" title="Mebrure'nin Adamı" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=69295&amp;sr=posts">2663</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 02 Nis 2016 22:16</dd>
+
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim BayTerapi">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim BayTerapi</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1247964"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1247964">
+
+											<h3><a href="#p1247964">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1247964/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1247964"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1247964#p1247964"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">BayTerapi</span></strong>
+												&raquo; </span>14 Oca 2021 00:51
+											</p>
+
+
+
+											<div class="content"><a href="https://hizliresim.com/LADUvx"
+													class="postlink"><img src="https://i.hizliresim.com/LADUvx.jpg" class="postimage" alt="Resim"></a><br>
+													<br>
+													<span style="color: #00FFFF"><em>Selam günlük, ve selam değerli İKV severler...</em></span><br>
+													<br>
+													<br>
+													<a href="https://hizliresim.com/DWuGHg"
+														class="postlink"><img src="https://i.hizliresim.com/DWuGHg.jpg" class="postimage" alt="Resim"></a><br>
+														<br>
+														<span style="color: #00FFFF"><em>Güne boss kesimiyle başladım. Bana lazım olan ''Cilveli Ayakkabı''yı atmamakta ısrarcı olan ''GBZ'' beni yeniden reçete ile karşıladı. ''Anu Asa'' bilmem para eder mi ki ?</em></span><br>
+														<br>
+														<br>
+														<a href="https://hizliresim.com/80Y3XW"
+															class="postlink"><img src="https://i.hizliresim.com/80Y3XW.jpg" class="postimage" alt="Resim"></a><br>
+															<br>
+															<span style="color: #00FFFF"><em>2 gün önce ''FazılSarrafoğlu'' yani nam-ı diğer ''Plafect'' beyefendiye elimde şöyle bir reçete bulundurduğumu söyledim. Kendisi bu reçeteyi üretmemde ısrarcı oldu ve başladık malzeme toplamaya...</em></span><br>
+															<br>
+															<br>
+															<a href="https://hizliresim.com/tHeysY"
+																class="postlink"><img src="https://i.hizliresim.com/tHeysY.jpg" class="postimage" alt="Resim"></a><br>
+																<br>
+																<span style="color: #00FFFF"><em>Ve evet çok kolay bir şekilde ürettik. Fakat elimde patladı diyebilirim, aslında ucuz bir üretim oldu fakat 2 gün boyunca bölgeye yansıttığım bu silaha 1 defa bile özel mesaj gelmedi. Şöyle buyurun nasıl bir silah bir de sizin görüşlerinizi alalım diyorum... </em></span><br>
+																<br>
+																<br>
+																<a href="https://hizliresim.com/HnOODt"
+																	class="postlink"><img src="https://i.hizliresim.com/HnOODt.jpg" class="postimage" alt="Resim"></a><br>
+																	<br>
+																	<span style="color: #00FFFF"><em>Birinci hedefim olan ''Cilveli Asa'' için materyal ve item satışları yapmaya başladım. Elimde kolye ve yüzük tek efsun Mazhar Osman takılar vardı ve cüzi bir miktara elden çıkardım. Küçük de olsa etkili satışlar, hele ki benim için.</em></span><br>
+																	<br>
+																	<br>
+																	<a href="https://hizliresim.com/t4wmaz"
+																		class="postlink"><img src="https://i.hizliresim.com/t4wmaz.jpg" class="postimage" alt="Resim"></a><br>
+																		<br>
+																		<span style="color: #00FFFF"><em>FazılSarrafoğlu ile parça parça alışverişlerimiz oldu. (Kendisi kıyak geçti) çaktırmayın işime geldi.</em></span><br>
+																		<br>
+																		<br>
+																		<a href="https://hizliresim.com/pDT3AA"
+																			class="postlink"><img src="https://i.hizliresim.com/pDT3AA.jpg" class="postimage" alt="Resim"></a><br>
+																			<br>
+																			<span style="color: #00FFFF"><em>Gibi, gibi...</em></span><br>
+																			<br>
+																			<br>
+																			<a href="https://hizliresim.com/YA9rlg"
+																				class="postlink"><img src="https://i.hizliresim.com/YA9rlg.jpg" class="postimage" alt="Resim"></a><br>
+																				<br>
+																				<span style="color: #00FFFF"><em>Ama bundan sonra onunla alışveriş yapmayacağım sanırım. Neden mi ? çünkü destek atıyor diyenler olabilir ki sanırım öyle oldu ama olmayacak bir daha.  <img class="smilies" src="./images/smilies/emojione/1f602.svg" width="20" height="20" alt=":')" title="face with tears of joy">  <img class="smilies" src="./images/smilies/emojione/1f602.svg" width="20" height="20" alt=":')" title="face with tears of joy"></em></span><br>
+																				<br>
+																				<span style="color: #00FFFF"><em>Günlüğün ilk bölümü böylece bitti. İleri ki zamanlar da daha fazla içerik sunabileceğimi düşünüyorum. <br>
+<br>
+Tekrar görüşürüz günlük...  <img class="smilies" src="./images/smilies/emojione/1f607.svg" width="20" height="20" alt="O:-)" title="smiling face with halo"> </em></span>
+											</div>
+
+
+
+											<div id="sig1247964" class="signature">
+												<span style="color: #40BF00"><strong>Bayterapi</strong></span><br>
+												<br>
+												<span style="color: #BF0000"><strong>JamesWebb</strong></span><br>
+												<br>
+												<span style="color: #4080FF"><strong>Perseverance</strong></span></div>
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1248678" class="post has-profile bg2">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1248678">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img src="//secure.gravatar.com/avatar/299bf57696b2e5605aaf1e911e96ad9c?s=100" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">Cankurtarann</span></strong>
+										</dt>
+
+										<dd class="profile-rank">Çınaraltı
+											Müdavimi<br /><img src="./images/ranks/13.png" alt="Çınaraltı Müdavimi" title="Çınaraltı Müdavimi" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=58575&amp;sr=posts">868</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 28 Ara 2012 11:28</dd>
+
+										<dd class="profile-custom-field profile-sunucu"><strong>Sunucu:</strong> Meran
+										</dd>
+										<dd class="profile-custom-field profile-klan"><strong>Klan:</strong> Arzın
+											Çocukları</dd>
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim Cankurtarann">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim Cankurtarann</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1248678"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1248678">
+
+											<h3><a href="#p1248678">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1248678/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1248678"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1248678#p1248678"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">Cankurtarann</span></strong>
+												&raquo; </span>26 Oca 2021 20:21
+											</p>
+
+
+
+											<div class="content">
+												<span style="color: #00BF40"><em>sayın <span style="color: #FFFFFF">BayTerapi</span>
+												siz zaten yazmakta çok geç kaldınız. umarım arayı kapatırsınız : ))
+												.</em></span></div>
+
+
+
+
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1249260" class="post has-profile bg1">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1249260">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img class="avatar" src="./images/avatars/gallery/Konsept/sifacierkekc.jpg" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">BayTerapi</span></strong>
+										</dt>
+
+										<dd class="profile-rank">Mebrure'nin
+											Adamı<br /><img src="./images/ranks/31.png" alt="Mebrure'nin Adamı" title="Mebrure'nin Adamı" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=69295&amp;sr=posts">2663</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 02 Nis 2016 22:16</dd>
+
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim BayTerapi">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim BayTerapi</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1249260"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1249260">
+
+											<h3><a href="#p1249260">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1249260/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1249260"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1249260#p1249260"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">BayTerapi</span></strong>
+												&raquo; </span>06 Şub 2021 00:13
+											</p>
+
+
+
+											<div class="content">
+												<blockquote>
+													<div>
+														<cite><a href="./memberlist.php?mode=viewprofile&amp;u=58575">Cankurtarann</a> yazdı: <a href="./viewtopic.php?p=1248678#p1248678" data-post-id="1248678" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">26 Oca 2021 20:21</div></cite>
+														<span style="color: #00BF40"><em>sayın <span style="color: #FFFFFF">BayTerapi</span>
+														siz zaten yazmakta çok geç kaldınız. umarım arayı kapatırsınız :
+														)) .</em></span>
+													</div>
+												</blockquote>
+
+												Teşekkür ederim. Şu aralar sık giremediğim için malzeme çıkmadı ama
+												devam edecek. tubikontinyud
+											</div>
+
+
+
+											<div id="sig1249260" class="signature">
+												<span style="color: #40BF00"><strong>Bayterapi</strong></span><br>
+												<br>
+												<span style="color: #BF0000"><strong>JamesWebb</strong></span><br>
+												<br>
+												<span style="color: #4080FF"><strong>Perseverance</strong></span></div>
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1249384" class="post has-profile bg2">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1249384">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img class="avatar" src="./images/avatars/gallery/Konsept/sifacierkekc.jpg" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">BayTerapi</span></strong>
+										</dt>
+
+										<dd class="profile-rank">Mebrure'nin
+											Adamı<br /><img src="./images/ranks/31.png" alt="Mebrure'nin Adamı" title="Mebrure'nin Adamı" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=69295&amp;sr=posts">2663</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 02 Nis 2016 22:16</dd>
+
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim BayTerapi">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim BayTerapi</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1249384"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1249384">
+
+											<h3><a href="#p1249384">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1249384/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1249384"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1249384#p1249384"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">BayTerapi</span></strong>
+												&raquo; </span>08 Şub 2021 23:28
+											</p>
+
+
+
+											<div class="content">
+												<span style="color: #00FFFF"><em>Güne mutlu bir şekilde başladım. Cilveli ayakkabı düştü ve çok mutluyum.  <img class="smilies" src="./images/smilies/emojione/1f60d.svg" width="20" height="20" alt=":heart_eyes:" title="smiling face with heart-shaped eyes"> </em></span><br>
+												<br>
+												<a href="https://hizliresim.com/P59T3D"
+													class="postlink"><img src="https://i.hizliresim.com/P59T3D.jpg" class="postimage" alt="Resim"></a><br>
+													<br>
+													<span style="color: #00FFFF"><em>Bu arada bir yandan savaşçı karakter dizmeye başladım. <span style="color: #FF8040">''Şifacı olarak en fazla ne yapılabilir ki ?''</span>
+													diyerekten. Şimdi diyeceksiniz Metalci ne alaka terapi kardeş. Oğuz
+													Kağan zırh üretme kararı aldığım için sırf satış olsun diyerekten
+													ürettim ve hala elimde alıcı varsa yazabilir (Parlatma
+													Hastalarına)</em></span><br>
+													<br>
+													<a href="https://hizliresim.com/vkY8JD"
+														class="postlink"><img src="https://i.hizliresim.com/vkY8JD.jpg" class="postimage" alt="Resim"></a><br>
+														<br>
+														<span style="color: #00FFFF"><em>Oğuz Kağan zırh demiştik. Malzeme toplamaya ufaktan başladım.<br>
+</em></span><br>
+														<a href="https://hizliresim.com/H8tdTB"
+															class="postlink"><img src="https://i.hizliresim.com/H8tdTB.jpg" class="postimage" alt="Resim"></a><br>
+															<br>
+															<a href="https://hizliresim.com/6cmaFI"
+																class="postlink"><img src="https://i.hizliresim.com/6cmaFI.jpg" class="postimage" alt="Resim"></a><br>
+																<br>
+																<a href="https://hizliresim.com/Rkkvl8"
+																	class="postlink"><img src="https://i.hizliresim.com/Rkkvl8.jpg" class="postimage" alt="Resim"></a><br>
+																	<br>
+																	<span style="color: #00FFFF"><em>Bu arada kendime <span style="color: #FF8080">''Bor Tomruk Yaran''</span>
+																	aldım 14t verdim sizce iyi bir fiyat mı ?
+																	arkadaşlarım lantan neden almadı diye dövüyordu beni
+																	ama çok pahalı geldi ya.</em></span><br>
+																	<br>
+																	<a href="https://hizliresim.com/NTZ0S2"
+																		class="postlink"><img src="https://i.hizliresim.com/NTZ0S2.jpg" class="postimage" alt="Resim"></a><br>
+																		<br>
+																		<span style="color: #00FFFF"><em>Şansım varmış ki Oğuz Kağan ayakkabı aldım  <img class="smilies" src="./images/smilies/emojione/1f607.svg" width="20" height="20" alt="O:-)" title="smiling face with halo"> <br>
+</em></span><br>
+																		<a href="https://hizliresim.com/ewVQGf"
+																			class="postlink"><img src="https://i.hizliresim.com/ewVQGf.jpg" class="postimage" alt="Resim"></a><br>
+																			<br>
+																			<span style="color: #00FFFF"><em>Umarım Oğuz Kağan zırhı bir an önce üretirim. İyi günler  <img class="smilies" src="./images/smilies/emojione/1f60d.svg" width="20" height="20" alt=":heart_eyes:" title="smiling face with heart-shaped eyes">   <img class="smilies" src="./images/smilies/emojione/1f590.svg" width="20" height="20" alt=":hand_splayed:" title="raised hand with fingers splayed">  <img class="smilies" src="./images/smilies/emojione/1f590.svg" width="20" height="20" alt=":hand_splayed:" title="raised hand with fingers splayed"> <br>
+</em></span><br>
+																			<a href="https://hizliresim.com/viZnX2"
+																				class="postlink"><img src="https://i.hizliresim.com/viZnX2.jpg" class="postimage" alt="Resim"></a>
+											</div>
+
+
+
+											<div id="sig1249384" class="signature">
+												<span style="color: #40BF00"><strong>Bayterapi</strong></span><br>
+												<br>
+												<span style="color: #BF0000"><strong>JamesWebb</strong></span><br>
+												<br>
+												<span style="color: #4080FF"><strong>Perseverance</strong></span></div>
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1249832" class="post has-profile bg1">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1249832">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img class="avatar" src="./images/avatars/gallery/Konsept/sifacierkekc.jpg" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">BayTerapi</span></strong>
+										</dt>
+
+										<dd class="profile-rank">Mebrure'nin
+											Adamı<br /><img src="./images/ranks/31.png" alt="Mebrure'nin Adamı" title="Mebrure'nin Adamı" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=69295&amp;sr=posts">2663</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 02 Nis 2016 22:16</dd>
+
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim BayTerapi">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim BayTerapi</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1249832"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1249832">
+
+											<h3><a href="#p1249832">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1249832/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1249832"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1249832#p1249832"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">BayTerapi</span></strong>
+												&raquo; </span>19 Şub 2021 21:57
+											</p>
+
+
+
+											<div class="content"><span style="color: #00FFFF"><em>Selamlar sizi kendi adıma çok mutlu olduğum bir kare ile buluşturuyorum. Sonun da zırhımı bastım.  <img class="smilies" src="./images/smilies/emojione/1f60d.svg" width="20" height="20" alt=":heart_eyes:" title="smiling face with heart-shaped eyes">   <img class="smilies" src="./images/smilies/emojione/1f60d.svg" width="20" height="20" alt=":heart_eyes:" title="smiling face with heart-shaped eyes"> <br>
+</em></span><br>
+												<a href="https://hizliresim.com/tGKKLK"
+													class="postlink"><img src="https://i.hizliresim.com/tGKKLK.jpg" class="postimage" alt="Resim"></a><br>
+													<br>
+													<span style="color: #00FFFF"><em>Şansım varmış ilk turda Afrikalı pantolon düşürdüm  <img class="smilies" src="./images/smilies/emojione/1f44f.svg" width="20" height="20" alt=":clap:" title="clapping hands sign"> <br>
+</em></span><br>
+													<a href="https://hizliresim.com/e0Otw4"
+														class="postlink"><img src="https://i.hizliresim.com/e0Otw4.jpg" class="postimage" alt="Resim"></a><br>
+														<br>
+														<span style="color: #00FFFF"><em>Başka da bir şey olmadı aslında. Yakında of23 almayı planlıyorum. Ufaktan tılsım işine girmem lazım.</em>  <img class="smilies" src="./images/smilies/emojione/1f60c.svg" width="20" height="20" alt=":relieved:" title="relieved face"> </span><br>
+														<br>
+														<span style="color: #00FFFF"><em>Bu arada <span style="color: #FFBF80">''Plafect''</span>
+														arkadaşımızın yaptığı taktik çok hoşuma gitti. Met 21
+														tılsımlarını biriktirip, Eminönü sunucusunda bolca satabilirim
+														<img class="smilies" src="./images/smilies/emojione/1f603.svg" width="20" height="20" alt=":D" title="smiling face with open mouth"></em></span>
+											</div>
+
+
+
+											<div id="sig1249832" class="signature">
+												<span style="color: #40BF00"><strong>Bayterapi</strong></span><br>
+												<br>
+												<span style="color: #BF0000"><strong>JamesWebb</strong></span><br>
+												<br>
+												<span style="color: #4080FF"><strong>Perseverance</strong></span></div>
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1249835" class="post has-profile bg2">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1249835">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img src="//secure.gravatar.com/avatar/06406cfb1b4a30b3157f0614834bdb1b?s=100" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">Sonne</span></strong>
+										</dt>
+
+										<dd class="profile-rank">Mezarlık
+											Bekçisi<br /><img src="./images/ranks/16.png" alt="Mezarlık Bekçisi" title="Mezarlık Bekçisi" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=73982&amp;sr=posts">1136</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 29 Nis 2018 09:35</dd>
+
+										<dd class="profile-custom-field profile-phpbb_location"><strong>Konum:</strong>
+											Giresun/Keşap</dd>
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim Sonne">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim Sonne</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1249835"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1249835">
+
+											<h3><a href="#p1249835">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1249835/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1249835"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1249835#p1249835"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">Sonne</span></strong>
+												&raquo; </span>19 Şub 2021 22:05
+											</p>
+
+
+
+											<div class="content">
+												<span style="color: #FFFF00"><em>Oğuz kağan Zırhın ve Afrikalı Scipio Pantolonun hayırlı olsun dostum, bol kazançlar <img class="smilies" src="./images/smilies/emojione/1f609.svg" width="20" height="20" alt=";)" title="winking face"> </em></span>
+											</div>
+
+
+
+											<div id="sig1249835" class="signature"><em></em>
+												<div align="center">
+													<em><a href="https://www.hizliresim.com/550r2gs" class="postlink"><img src="https://i.hizliresim.com/550r2gs.png" class="postimage" alt="Resim"></a></em>
+													<div align="center"><em></em></div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="back2top">
+										<a href="#top" class="top" title="Başa dön">
+											<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+											<span class="sr-only">Başa dön</span>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+							<hr class="divider" />
+							<div id="p1249916" class="post has-profile bg1">
+								<div class="inner">
+
+									<dl class="postprofile" id="profile1249916">
+										<dt class="has-profile-rank has-avatar">
+											<div class="avatar-container">
+												<span class="avatar"><img src="//secure.gravatar.com/avatar/0bad41efd138e42d41ea3fc4847dad55?s=100" width="100" height="100" alt="Kullanıcı avatarı" /></span>
+											</div>
+											<strong><span class="username">Retaliation</span></strong>
+										</dt>
+
+										<dd class="profile-rank">GBM
+											Teknisyeni<br /><img src="./images/ranks/57.png" alt="GBM Teknisyeni" title="GBM Teknisyeni" /></dd>
+										<dd class="profile-posts"><strong>Mesajlar:</strong> <a
+												href="./search.php?author_id=67598&amp;sr=posts">5255</a></dd>
+										<dd class="profile-joined"><strong>Kayıt:</strong> 27 Haz 2015 13:39</dd>
+
+										<dd class="profile-custom-field profile-sunucu"><strong>Sunucu:</strong> Eminönü
+										</dd>
+										<dd class="profile-custom-field profile-phpbb_location"><strong>Konum:</strong>
+											İstanbul</dd>
+
+										<dd class="profile-contact">
+											<strong>İletişim:</strong>
+											<div class="dropdown-container dropdown-left">
+												<a href="#" class="dropdown-trigger" title="İletişim Retaliation">
+													<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">İletişim Retaliation</span>
+												</a>
+												<div class="dropdown">
+													<div class="pointer">
+														<div class="pointer-inner"></div>
+													</div>
+													<div class="dropdown-contents contact-icons">
+														<div>
+															<a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=1249916"
+																title="Özel mesaj gönder" class="last-cell">
+																<span class="contact-icon pm-icon">Özel mesaj gönder</span>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</dd>
+
+									</dl>
+
+									<div class="postbody">
+										<div id="post_content1249916">
+
+											<h3><a href="#p1249916">Re: Bayterapi'nin Günlüğü</a></h3>
+
+											<ul class="post-buttons">
+												<li>
+													<a href="/app.php/post/1249916/report" title="Bu mesajı bildir"
+														class="button button-icon-only">
+														<i class="icon fa-exclamation fa-fw" aria-hidden="true"></i><span class="sr-only">Bu mesajı bildir</span>
+													</a>
+												</li>
+												<li>
+													<a href="./posting.php?mode=quote&amp;f=137&amp;p=1249916"
+														title="Alıntı ile cevapla" class="button button-icon-only">
+														<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Alıntı</span>
+													</a>
+												</li>
+											</ul>
+
+											<p class="author">
+												<a class="unread" href="./viewtopic.php?p=1249916#p1249916"
+													title="Mesaj">
+													<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Mesaj</span>
+												</a>
+												<span class="responsive-hide">gönderen <strong><span class="username">Retaliation</span></strong>
+												&raquo; </span>22 Şub 2021 00:17
+											</p>
+
+
+
+											<div class="content">Fazlı hala kulaklarını çınlatıyor mu Murat
+												<img class="smilies" src="./images/smilies/emojione/1f603.svg" width="20" height="20" alt=":D" title="smiling face with open mouth"></div>
+
+
+
+												<div id="sig1249916" class="signature">
+													<div align="center"><a
+															href="http://forum.istanbuloyun.com/viewtopic.php?f=137&amp;t=132885"
+															class="postlink"><img src="https://i.hizliresim.com/z0PLkO.png" class="postimage" alt="Resim"></a>
+													</div>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="back2top">
+											<a href="#top" class="top" title="Başa dön">
+												<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+												<span class="sr-only">Başa dön</span>
+											</a>
+										</div>
+
+									</div>
+								</div>
+
+								<hr class="divider" />
+
+
+								<div class="action-bar bar-bottom">
+
+									<a href="./posting.php?mode=reply&amp;f=137&amp;t=165147" class="button"
+										title="Cevap gönder">
+										<span>Cevapla</span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+									</a>
+
+									<div class="dropdown-container dropdown-button-control topic-tools">
+										<span title="Başlık araçları" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+										</span>
+										<div class="dropdown">
+											<div class="pointer">
+												<div class="pointer-inner"></div>
+											</div>
+											<ul class="dropdown-contents">
+												<li>
+													<a href="./viewtopic.php?uid=73036&amp;f=137&amp;t=165147&amp;watch=topic&amp;start=0&amp;hash=56f1a561"
+														class="watch-topic-link" title="Başlığa abone ol"
+														data-ajax="toggle_link"
+														data-toggle-class="icon fa-square-o fa-fw"
+														data-toggle-text="Başlığa abone olmayı bırak"
+														data-toggle-url="./viewtopic.php?uid=73036&amp;f=137&amp;t=165147&amp;unwatch=topic&amp;start=0&amp;hash=56f1a561"
+														data-update-all=".watch-topic-link">
+														<i class="icon fa-check-square-o fa-fw" aria-hidden="true"></i><span>Başlığa abone ol</span>
+													</a>
+												</li>
+												<li>
+													<a href="./viewtopic.php?f=137&amp;t=165147&amp;bookmark=1&amp;hash=56f1a561"
+														class="bookmark-link" title="Sık kullanılanlara ekle"
+														data-ajax="alt_text" data-alt-text="Sık kullanılanlardan sil"
+														data-update-all=".bookmark-link">
+														<i class="icon fa-bookmark-o fa-fw" aria-hidden="true"></i><span>Sık kullanılanlara ekle</span>
+													</a>
+												</li>
+												<li>
+													<a href="./memberlist.php?mode=email&amp;t=165147"
+														title="Başlığı e-posta ile gönder">
+														<i class="icon fa-envelope-o fa-fw" aria-hidden="true"></i><span>Başlığı e-posta ile gönder</span>
+													</a>
+												</li>
+												<li>
+													<a href="./viewtopic.php?f=137&amp;t=165147&amp;view=print"
+														title="Yazıcı görüntüsü" accesskey="p">
+														<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Yazıcı görüntüsü</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<form method="post" action="./viewtopic.php?f=137&amp;t=165147">
+										<div
+											class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+											<span title="Görüntüleme ve sıralama seçenekleri" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+											</span>
+											<div class="dropdown hidden">
+												<div class="pointer">
+													<div class="pointer-inner"></div>
+												</div>
+												<div class="dropdown-contents">
+													<fieldset class="display-options">
+														<label>Göster: <select name="st" id="st"><option value="0" selected="selected">Tüm mesajlar</option><option value="1">1 Gün</option><option value="7">7 Gün</option><option value="14">2 Hafta</option><option value="30">1 Ay</option><option value="90">3 Ay</option><option value="180">6 Ay</option><option value="365">1 Yıl</option></select></label>
+														<label>Sırala: <select name="sk" id="sk"><option value="a">Yazar</option><option value="t" selected="selected">Mesaj tarihi</option><option value="s">Konu</option></select></label>
+														<label>Yön: <select name="sd" id="sd"><option value="a" selected="selected">Artan</option><option value="d">Azalan</option></select></label>
+														<hr class="dashed" />
+														<input type="submit" class="button2" name="sort" value="Git" />
+						</fieldset>
+												</div>
+											</div>
+										</div>
+									</form>
+
+
+
+									<div class="pagination">
+										43 mesaj
+										<ul>
+											<li class="active"><span>1</span></li>
+											<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=10"
+													role="button">2</a></li>
+											<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=20"
+													role="button">3</a></li>
+											<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=30"
+													role="button">4</a></li>
+											<li><a class="button" href="./viewtopic.php?f=137&amp;t=165147&amp;start=40"
+													role="button">5</a></li>
+											<li class="arrow next"><a class="button button-icon-only"
+													href="./viewtopic.php?f=137&amp;t=165147&amp;start=10" rel="next"
+													role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Sonraki</span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+
+								<div class="action-bar actions-jump">
+									<p class="jumpbox-return">
+										<a href="./viewforum.php?f=137" class="left-box arrow-left" accesskey="r">
+											<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>“Kıyamet Günlükleri” sayfasına dön</span>
+										</a>
+									</p>
+
+									<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control"
+										id="jumpbox">
+										<span title="Geçiş yap" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Geçiş yap</span>
+										<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+										</span>
+										<div class="dropdown">
+											<div class="pointer">
+												<div class="pointer-inner"></div>
+											</div>
+											<ul class="dropdown-contents">
+												<li><a href="./viewforum.php?f=18" class="jumpbox-cat-link">
+														<span> Genel Duyurular</span></a></li>
+												<li><a href="./viewforum.php?f=52"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kurallar</span></a></li>
+												<li><a href="./viewforum.php?f=19"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Haberler &amp; Duyurular</span></a></li>
+												<li><a href="./viewforum.php?f=105"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Güvenlik</span></a></li>
+												<li><a href="./viewforum.php?f=47"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Sıkça Sorulan Sorular</span></a></li>
+												<li><a href="./viewforum.php?f=45" class="jumpbox-cat-link">
+														<span> Genel Etkileşim</span></a></li>
+												<li><a href="./viewforum.php?f=46"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Etkileşim</span></a></li>
+												<li><a href="./viewforum.php?f=99"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Eski Duyurular</span></a></li>
+												<li><a href="./viewforum.php?f=141"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Hata Bildirimleri</span></a></li>
+												<li><a href="./viewforum.php?f=137"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kıyamet Günlükleri</span></a></li>
+												<li><a href="./viewforum.php?f=121"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Loncalar</span></a></li>
+												<li><a href="./viewforum.php?f=64"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Konu Dışı</span></a></li>
+												<li><a href="./viewforum.php?f=138"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Donanım / Teknik Sorunlar</span></a></li>
+												<li><a href="./viewforum.php?f=66"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Anketler</span></a></li>
+												<li><a href="./viewforum.php?f=82"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Eski Anketler</span></a></li>
+												<li><a href="./viewforum.php?f=104"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; İKV Dükkan</span></a></li>
+												<li><a href="./viewforum.php?f=87"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Etkinlikler</span></a></li>
+												<li><a href="./viewforum.php?f=51"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Görevler</span></a></li>
+												<li><a href="./viewforum.php?f=100"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Hızlı Destek</span></a></li>
+												<li><a href="./viewforum.php?f=14" class="jumpbox-cat-link">
+														<span> Karakter Okulları</span></a></li>
+												<li><a href="./viewforum.php?f=15"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Savaşçı</span></a></li>
+												<li><a href="./viewforum.php?f=16"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Büyücü</span></a></li>
+												<li><a href="./viewforum.php?f=17"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Şifacı</span></a></li>
+												<li><a href="./viewforum.php?f=48" class="jumpbox-cat-link">
+														<span> Klanlar</span></a></li>
+												<li><a href="./viewforum.php?f=49"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lodos</span></a></li>
+												<li><a href="./viewforum.php?f=50"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Arzın Çocukları</span></a></li>
+												<li><a href="./viewforum.php?f=63" class="jumpbox-cat-link">
+														<span> Sunucular</span></a></li>
+												<li><a href="./viewforum.php?f=3"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Eminönü Sunucusu Kanalları</span></a></li>
+												<li><a href="./viewforum.php?f=4"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=123"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=5"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=6"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Teşkilat Sunucusu Kanalları</span></a>
+												</li>
+												<li><a href="./viewforum.php?f=22"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=124"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=23"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=7"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Beyaz Köşk Sunucusu Kanalları</span></a>
+												</li>
+												<li><a href="./viewforum.php?f=24"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=125"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=25"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=9"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kuklacı Sunucusu Kanalları</span></a></li>
+												<li><a href="./viewforum.php?f=26"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=126"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=27"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=10"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Meran Sunucusu Kanalları</span></a></li>
+												<li><a href="./viewforum.php?f=28"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=127"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=29"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=12"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Tılsım Sunucusu Kanalları</span></a></li>
+												<li><a href="./viewforum.php?f=31"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=128"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=30"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=11"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Sancak Sunucusu Kanalları</span></a></li>
+												<li><a href="./viewforum.php?f=32"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=129"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=33"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=13"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Anka Sunucusu Kanalları</span></a></li>
+												<li><a href="./viewforum.php?f=34"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Genel Sohbet</span></a></li>
+												<li><a href="./viewforum.php?f=130"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Lonca İletişim</span></a></li>
+												<li><a href="./viewforum.php?f=35"
+														class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span>
+														<span> &#8627; &nbsp; Kapalı Çarşı</span></a></li>
+												<li><a href="./viewforum.php?f=57" class="jumpbox-cat-link">
+														<span> Fan Kulübü</span></a></li>
+												<li><a href="./viewforum.php?f=61"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Diğer</span></a></li>
+												<li><a href="./viewforum.php?f=58"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Görseller</span></a></li>
+												<li><a href="./viewforum.php?f=59"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Video</span></a></li>
+												<li><a href="./viewforum.php?f=60"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Yazım</span></a></li>
+												<li><a href="./viewforum.php?f=62"
+														class="jumpbox-sub-link"><span class="spacer"></span>
+														<span> &#8627; &nbsp; Fan Siteler</span></a></li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="stat-block online-list">
+									<h3>Kimler çevrimiçi</h3>
+									<p>Bu forumu görüntüleyen kullanıcılar: <span class="username">benibanladilar</span>
+										ve 1 misafir</p>
+								</div>
+
+							</div>
+
+
+							<div id="page-footer" class="page-footer" role="contentinfo">
+								<div class="navbar" role="navigation">
+									<div class="inner">
+
+										<ul id="nav-footer" class="nav-footer linklist" role="menubar">
+											<li class="breadcrumbs">
+												<span class="crumb"><a href="./index.php" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Forum ana sayfa</span></a></span>
+											</li>
+
+											<li class="rightside">Tüm zamanlar
+												<span title="Avrupa/İstanbul">UTC+03:00</span></li>
+											<li class="rightside">
+												<a href="./ucp.php?mode=delete_cookies" data-ajax="true"
+													data-refresh="true" role="menuitem">
+													<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Tüm mesaj panosu çerezlerini sil</span>
+												</a>
+											</li>
+										</ul>
+
+									</div>
+								</div>
+
+								<div class="copyright">
+									<!-- Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited -->
+									<br />
+									<!-- <br />Türkçe çeviri: <a href="http://www.phpbbturkey.com/">phpBB Türkiye</a> -->
+								</div>
+
+								<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX hatası"
+									data-ajax-error-text="İsteğiniz işlenirken bir şeyler ters gitti."
+									data-ajax-error-text-abort="İstek kullanıcı tarafından iptal edildi."
+									data-ajax-error-text-timeout="İsteğiniz zaman aşımına uğradı; lütfen tekrar deneyin."
+									data-ajax-error-text-parsererror="İstek ile ilgili bir şeyler ters gitti ve sunucu geçersiz bir yanıt döndürdü.">
+									<div id="darken" class="darken">&nbsp;</div>
+								</div>
+
+								<div id="phpbb_alert" class="phpbb_alert" data-l-err="Hata"
+									data-l-timeout-processing-req="İstek zaman aşımında uğradı.">
+									<a href="#" class="alert_close">
+										<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+									</a>
+									<h3 class="alert_title">&nbsp;</h3>
+									<p class="alert_text"></p>
+								</div>
+								<div id="phpbb_confirm" class="phpbb_alert">
+									<a href="#" class="alert_close">
+										<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+									</a>
+									<div class="alert_text"></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div>
+							<a id="bottom" class="anchor" accesskey="z"></a>
+							<img src="./cron.php?cron_type=cron.task.text_reparser.post_text" width="1" height="1" alt="cron" /></div>
+
+							<script type="text/javascript" src="./assets/javascript/jquery.min.js?assets_version=81">
+							</script>
+							<script type="text/javascript" src="./assets/javascript/core.js?assets_version=81"></script>
+
+
+							<script>
+								(function() {
+      var cx = '007124507919808427397:a8ccezde52m';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+         '//cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+   })();
+							</script>
+
+							<script type="text/javascript"
+								src="./styles/IstanbulOyunKKT/template/forum_fn.js?assets_version=81"></script>
+							<script type="text/javascript"
+								src="./styles/IstanbulOyunKKT/template/detectmobilebrowser.js?assets_version=81">
+							</script>
+							<script type="text/javascript"
+								src="./styles/IstanbulOyunKKT/template/ajax.js?assets_version=81"></script>
+							<script type="text/javascript"
+								src="./ext/alfredoramos/simplespoiler/styles/all/theme/js/spoiler.js?assets_version=81">
+							</script>
+
+
+							<script type="text/javascript">
+								$(function() {
+		$('.spoiler').initSpoilers({
+			showText: 'G\u00F6ster',
+			hideText: 'Gizle'
+		});
+	});
+							</script>
+</body>
+
+</html>
