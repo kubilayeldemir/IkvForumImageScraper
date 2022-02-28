@@ -34,5 +34,8 @@ def find_image_tags(element):
 def find_post_username(post):
     return post.find('span', {"class": "username"}).text
 
+
 def filter_images(images):
-    return filter(lambda image: not image['src'].startswith('./images/smilies'), images)
+    filtered = filter(lambda image: not image['src'].startswith('./images/smilies'), images)
+    filtered = filter(lambda image: not image['src'].startswith('//cdn.jsdelivr'), filtered)
+    return filtered
