@@ -2,6 +2,15 @@ def find_title_of_post(ikvPageSoup):
     return ikvPageSoup.find("h2", class_="topic-title").text
 
 
+def is_still_logged_in(ikvPageSoup):
+    usernameDiv = ikvPageSoup.find("li", {"id": "username_logged_in"})
+    scraperAccountsUsername = None
+    if usernameDiv is not None:
+        scraperAccountsUsername = ikvPageSoup.find("span", {"class": "username"}).text
+    return usernameDiv is not None, scraperAccountsUsername
+
+
+
 def find_page_body(soup):
     return soup.find("div", {"id": "page-body"})
 
