@@ -1,7 +1,8 @@
+import logging
 import requests
 
-
 def getPageWithIkvHeaders(pageLink):
+    logging.info("Getting page: " + pageLink)
     return requests.get(pageLink, headers=headers).content
 
 
@@ -12,5 +13,5 @@ headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
     "Referer": "http://forum.istanbuloyun.com/viewtopic.php?f=46&t=169906",
     "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Cookie": "ikvforum_o73n9_k=; ikvforum_o73n9_u=73036; ikvforum_o73n9_sid=0da091a90435980619e162ab3444c5bc"
+    "Cookie": "ikvforum_o73n9_k=; ikvforum_o73n9_u=73036; ikvforum_o73n9_sid=513b30571483fa34403b1e2d32e1fb72"
 }

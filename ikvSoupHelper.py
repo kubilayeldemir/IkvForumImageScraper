@@ -32,10 +32,15 @@ def find_image_tags(element):
 
 
 def find_post_username(post):
-    return post.find('span', {"class": "username"}).text
+    username = post.find('span', {"class": "username"})
+    if not username:
+        username = post.find('span', {"class": "username-coloured"})
+    return username.text
 
 
 def filter_images(images):
     filtered = filter(lambda image: not image['src'].startswith('./images/smilies'), images)
     filtered = filter(lambda image: not image['src'].startswith('//cdn.jsdelivr'), filtered)
-    return filtered
+    filtered = filter(
+        lambda image: not image['src'].startswith("http://forum.istanbuloyun.com/images/uploads/etkinlik/"), filtered)
+    return list(filtered)
