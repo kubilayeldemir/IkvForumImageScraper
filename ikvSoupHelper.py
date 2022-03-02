@@ -10,6 +10,13 @@ def is_still_logged_in(ikvPageSoup):
     return usernameDiv is not None, scraperAccountsUsername
 
 
+def find_post_date(ikvPage):
+    authorP = ikvPage.find("p", class_="author")
+    date = authorP.contents[4][:-4]
+    date = date.replace(":", "-")
+    date = date.replace(" ", "-")
+    return date
+
 
 def find_page_body(soup):
     return soup.find("div", {"id": "page-body"})

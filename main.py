@@ -9,4 +9,4 @@ logging.basicConfig(handlers=[
     format='%(levelname)s: %(asctime)s %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S')
 
-scrape_threads(165145)
+scrape_threads(1)

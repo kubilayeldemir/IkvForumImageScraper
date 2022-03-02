@@ -34,14 +34,16 @@ def scrape_thread(threadId):
 
     pageBody = find_page_body(ikvPageSoup)
 
+    postDate = find_post_date(pageBody)
+
     pagination = find_pagination_element_on_pagebody(pageBody)
 
     lastPageNumber = find_last_page_number(pagination)
 
     posts = find_all_posts_on_pagebody(pageBody)
 
-
     for i in range(0, lastPageNumber):
+        time.sleep(1)
         if i != 0:
             linkToScrape = baseLinkToScrape + "&start=" + str(i * 10)
             ikvPage = getPageWithIkvHeaders(linkToScrape)
@@ -66,7 +68,7 @@ def scrape_thread(threadId):
                 requestEnd = time.time()
                 logging.info("Downloading Image Request Elapsed Time:" + str(requestEnd - requestStart))
                 if imageResponse is not None and imageResponse.status_code == 200:
-                    filename = "" + title + "_" + postUsername + "_" + str(uuid.uuid4()).upper()
+                    filename = "" + title + "_" + postUsername + "_" + postDate + "_" + str(uuid.uuid4()).upper()
                     keepcharacters = (' ', '_', '-')
                     safeFilename = "".join(c for c in filename if c.isalnum() or c in keepcharacters).rstrip()
                     with open("images/" + safeFilename + ".png", 'wb') as f:
