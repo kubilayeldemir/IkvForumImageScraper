@@ -13,6 +13,7 @@ import logging
 def scrape_thread(threadId):
     # ikvPage = readTestFile("ikvPage.txt")
     baseLinkToScrape = "http://forum.istanbuloyun.com/viewtopic.php?f=137&t=" + str(threadId)
+    imageLinks = []
 
     ikvPage = getPageWithIkvHeaders(baseLinkToScrape)
     ikvPageSoup = BeautifulSoup(ikvPage, "html.parser")
@@ -39,7 +40,6 @@ def scrape_thread(threadId):
 
     posts = find_all_posts_on_pagebody(pageBody)
 
-    imageLinks = []
 
     for i in range(0, lastPageNumber):
         if i != 0:
