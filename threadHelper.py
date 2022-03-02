@@ -62,7 +62,7 @@ def scrape_thread(threadId):
                 requestStart = time.time()
                 imageResponse = None
                 try:
-                    imageResponse = requests.get(link)
+                    imageResponse = requests.get(link, timeout=10)
                 except:
                     logging.error("Image Not Found :" + link)
                 requestEnd = time.time()

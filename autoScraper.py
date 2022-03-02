@@ -14,3 +14,13 @@ def scrape_threads(startingThreadId):
 
 def scrape_single_page(threadNumber):
     scrape_thread(threadNumber)
+
+
+def scrape_threads_reverse(lastThreadId):
+    totalDownloadedImageNumber = 0
+    for threadNumber in range(lastThreadId, 0, -1):
+        downloadedImageNumberOnThread = scrape_thread(threadNumber)
+        if downloadedImageNumberOnThread is None:
+            downloadedImageNumberOnThread = 0
+        totalDownloadedImageNumber = totalDownloadedImageNumber + downloadedImageNumberOnThread
+        time.sleep(1)
