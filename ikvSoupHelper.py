@@ -11,7 +11,8 @@ def is_still_logged_in(ikvPageSoup):
 
 
 def find_post_date(ikvPage):
-    authorP = ikvPage.find("p", class_="author")
+    postBody = ikvPage.find("div", class_="postbody")
+    authorP = postBody.find("p", class_="author")
     date = authorP.contents[4][:-4]
     date = date.replace(":", "-")
     date = date.replace(" ", "-")
