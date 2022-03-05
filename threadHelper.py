@@ -67,6 +67,8 @@ def scrape_all_pages_on_thread(baseLinkToScrape, i, imageLinks, postDate, posts,
         posts = find_all_posts_on_pagebody(pageBody)
     for post in posts:
         postContent = find_post_content(post)
+        remove_quotes_from_post(postContent)
+        postDate = find_post_date(post)
         images = find_image_tags(postContent)
         postUsername = find_post_username(post)
         filteredImgTags = filter_images(images)

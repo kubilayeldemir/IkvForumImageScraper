@@ -59,6 +59,13 @@ def filter_images(images):
     filtered = filter(lambda image: not image['src'].startswith('./images/smilies'), images)
     filtered = filter(lambda image: not image['src'].startswith('//cdn.jsdelivr'), filtered)
     filtered = filter(lambda image: not image['src'].startswith('https://r.resimlink.com'), filtered)
+    filtered = filter(lambda image: not image['src'].startswith('http://resim.myasinay.com/images/'), filtered)
     filtered = filter(
         lambda image: not image['src'].startswith("http://forum.istanbuloyun.com/images/uploads/etkinlik/"), filtered)
     return list(filtered)
+
+
+def remove_quotes_from_post(postContent):
+    for blockquote in postContent.findAll("blockquote"):
+        blockquote.decompose()
+
