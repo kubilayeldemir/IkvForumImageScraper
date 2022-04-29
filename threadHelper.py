@@ -18,6 +18,8 @@ def scrape_thread(threadId):
 
     ikvPage = getPageWithIkvHeaders(baseLinkToScrape)
     ikvPageSoup = BeautifulSoup(ikvPage, "html.parser")
+    if is_error_page(ikvPageSoup):
+        return
     isStillLoggedIn, loggedInUsername = is_still_logged_in(ikvPageSoup)
     if not isStillLoggedIn:
         logging.error("Account is not logged in. Session Expired " + str(datetime.datetime.now()))

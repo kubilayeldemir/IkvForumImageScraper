@@ -1,3 +1,8 @@
+def is_error_page(ikvPageSoup):
+    x = ikvPageSoup.find("body", {"id": "errorpage"})
+    return x is not None
+
+
 def find_title_of_post(ikvPageSoup):
     return ikvPageSoup.find("h2", class_="topic-title").text
 
