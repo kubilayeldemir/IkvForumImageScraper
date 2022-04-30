@@ -2,9 +2,10 @@ import logging
 import os
 import base64
 import requests
+import imghdr
 
 authToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InN0cmluYkBhc2QuY29tIiwidXNlcm5hbWUiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJuYmYiOjE2NTEyNTk5OTUsImV4cCI6MTY1MTM0NjM5NSwiaWF0IjoxNjUxMjU5OTk1fQ.wuEh0UXYwkHAvrsCmCuLru0lAj9WnLfZaqEHFh8v71M"
-enableRequests = False
+enableRequests = True
 selectedFolder = "images/"
 
 logging.basicConfig(handlers=[
@@ -17,11 +18,24 @@ logging.basicConfig(handlers=[
 
 request_data = []
 
+pngB64 = 'data:image/png;base64,'
+allowedImages = ["jpeg", "png", "gif", "bmp"]
+
 for root, dirs, files in os.walk("images"):
     i = 0
     for file in files:
+        fileType = pngB64
         i += 1
         with open(selectedFolder + file, "rb") as image_file:
+            imgType = imghdr.what(image_file)
+
+            if imgType is None:
+                print("File is corrupted.: " + file)
+                continue
+
+            if allowedImages.count(imgType) > 0:
+                fileType = 'data:image/' + imgType + ';base64,'
+
             encoded_string = base64.b64encode(image_file.read()).decode()
             image_name = os.path.basename(image_file.name)
 
@@ -30,7 +44,7 @@ for root, dirs, files in os.walk("images"):
             imageAuthor = splitImageName[1]
             imageDate = splitImageName[2]
 
-            base64_image = 'data:image/png;base64,' + encoded_string
+            base64_image = fileType + encoded_string
             data = {
                 "title": imageTitle,
                 "username": imageAuthor,
@@ -41,17 +55,18 @@ for root, dirs, files in os.walk("images"):
         if i / 10 == 1:
             if enableRequests:
                 response = requests.post(url="http://localhost:5000/api/v1/post/bulk-save-raw", json=request_data,
-                                         headers={"Authorization": authToken}, )
+                                         headers={"Authorization": authToken})
+                print(response.content)
 
             i = 0
-            print(request_data)
             request_data = []
 
     if len(request_data) > 0:
+        for val in request_data.__iter__():
+            print("Data OK - Title: " + val["title"] + " Username: " + val["username"] + " Timestamp: " + val[
+                "timestampString"])
+
         if enableRequests:
             response = requests.post(url="http://localhost:5000/api/v1/post/bulk-save-raw", json=request_data,
-                                     headers={"Authorization": authToken}, )
-            print(request_data)
-
-
-    print("request at")
+                                     headers={"Authorization": authToken})
+            print(response.content)
