@@ -4,7 +4,7 @@ import base64
 import requests
 import imghdr
 
-authToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InN0cmluYkBhc2QuY29tIiwidXNlcm5hbWUiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJuYmYiOjE2NTEyNTk5OTUsImV4cCI6MTY1MTM0NjM5NSwiaWF0IjoxNjUxMjU5OTk1fQ.wuEh0UXYwkHAvrsCmCuLru0lAj9WnLfZaqEHFh8v71M"
+authToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6InN0cmluYkBhc2QuY29tIiwidXNlcm5hbWUiOiJzdHJpbmciLCJyb2xlIjoiYWRtaW4iLCJuYmYiOjE2NTE2Nzc4NTYsImV4cCI6MTY1MTc2NDI1NiwiaWF0IjoxNjUxNjc3ODU2fQ.iHCTZY4A3s1KPg7eVUtyTbpEJMvLDb46u_HW6bBpq5Q"
 enableRequests = True
 selectedFolder = "images/"
 
@@ -25,7 +25,6 @@ for root, dirs, files in os.walk("images"):
     i = 0
     for file in files:
         fileType = pngB64
-        i += 1
         with open(selectedFolder + file, "rb") as image_file:
             imgType = imghdr.what(image_file)
 
@@ -49,13 +48,20 @@ for root, dirs, files in os.walk("images"):
                 "title": imageTitle,
                 "username": imageAuthor,
                 "fileBase64": base64_image,
-                "timestampString": imageDate
+                "timestampString": imageDate,
+                "fileType": imgType
             }
+            i += 1
             request_data.append(data)
         if i / 10 == 1:
+            for val in request_data.__iter__():
+                print("Data OK - Title: " + val["title"] + " Username: " + val["username"] + " Timestamp: " + val[
+                    "timestampString"])
             if enableRequests:
                 response = requests.post(url="http://localhost:5000/api/v1/post/bulk-save-raw", json=request_data,
                                          headers={"Authorization": authToken})
+                if response.status_code != 200:
+                    print("HATA - Status Code: " + str(response.status_code))
                 print(response.content)
 
             i = 0
